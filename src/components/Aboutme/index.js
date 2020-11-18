@@ -6,11 +6,11 @@ function Aboutme() {
 
     return (
         <container>
-        <div className="portfolio-resume row">
+            <div className="portfolio-resume row">
 
-            <div className="porfolio-resume-spacing col-md-4">
-                <div className="portfolio-resume-wrapper">
-                    <img src={"./Assets/pic.jpg"}className="portfolio-resume-headshot"  alt={"headshot"} />
+                <div className="porfolio-resume-spacing col-md-4">
+                    <div className="portfolio-resume-wrapper">
+                        <img src={"../../../../public/images/profile_photo.png"} className="portfolio-resume-headshot" alt={"headshot"} />
                         <h3 className="portfolio-resume-header">Technology Interests</h3>
                         <ul>
                             <li>Back-end Web Development</li>
@@ -21,7 +21,7 @@ function Aboutme() {
                             <li>Relational Databases</li>
                             <li>MongoDB and other NoSQL Databases</li>
                         </ul>
-            </div>
+                    </div>
                 </div>
 
                 <div className="portfolio-resume-spacing col-md-8">
@@ -31,20 +31,11 @@ function Aboutme() {
 
                             <p>I am a full-stack web developer with a particular interest in back-end technologies,including databases, APIs, and linking them to the front-end to create user-friendly, interactive, and intuitive applications.<br /><br />
 
-                                    Prior to my completing the Web Development Boot Camp at Southern Methodist University I was
-                                    a
-                                    public finance and budgeting professional with experience working for large cities and
-                                    counties
-                        in Texas and South Florida.<br /><br />
+                                    Prior to my completing the Web Development Boot Camp at Southern Methodist University I was a public finance and budgeting professional with experience working for large cities and counties in Texas and South Florida.<br /><br />
 
-                                        In addition to managing multiple complex budgets in excess of $100 million, I became
-                                        certified
-                                        as a Lean Six Sigma Yellow Belt and participated in multiple process improvement
-                        projects.<br /><br />
+                                        In addition to managing multiple complex budgets in excess of $100 million, I became certified as a Lean Six Sigma Yellow Belt and participated in multiple process improvement projects.<br /><br />
 
-                                            I have experience as a Subject Matter Expert and a Project Manager for multiple software
-                                            implementations, including PeopleSoft Financials and Oracle Planning and Budgeting Cloud
-                                            (PBCS) and Enterprise Performance Reporting Cloud (EPRCS) solutions.
+                                            I have experience as a Subject Matter Expert and a Project Manager for multiple software implementations, including PeopleSoft Financials and Oracle Planning and Budgeting Cloud(PBCS) and Enterprise Performance Reporting Cloud (EPRCS) solutions.
                     </p>
                             <h2>My Education</h2>
                             <ul>
@@ -79,9 +70,9 @@ function Aboutme() {
 
             </div>
 
-            </container>
+        </container>
 
-);
+    );
 
 }
 
