@@ -6,13 +6,12 @@ import Footer from "../../components/Footer";
 function Portfolio() {
 
     return (
-        <div>
-            <Header />
+        <>
             <div>
                 <Project />
             </div>
             <Footer />
-        </div>
+        </>
     );
 }
 

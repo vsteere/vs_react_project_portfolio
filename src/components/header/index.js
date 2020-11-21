@@ -4,20 +4,25 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  useLocation
 } from "react-router-dom";
+import { Nav } from "react-bootstrap";
+
+const location = useLocation();
 
 
 function Header() {
   return (
-   
+   <>
         <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="../public/resume.pdf">My Resume</Nav.Link>
+          <Nav.Link><Link to="/about">About Me</Link></Nav.Link>
+          <Nav.Link><Link to="/portfolio">My Work</Link></Nav.Link>
+          <Nav.Link href="../../../public/resume.pdf">My Resume</Nav.Link>
           <Nav.Link href="https://www.linkedin.com/in/vladislavsteere/">My LinkedIn</Nav.Link> 
           <Nav.Link href="https://github.com/vsteere">My Github</Nav.Link>
           
@@ -25,6 +30,8 @@ function Header() {
         
       </Navbar.Collapse>
     </Navbar>
+
+    </>
       );
     }
  
