@@ -7,7 +7,7 @@ function Footer() {
      <div>My contact information</div>
      <ul>
          <li>Phone: (803) 606-8902</li>
-         <ul>Email: vssteere@gmail.com</ul>
+         <li>Email: vssteere@gmail.com</li>
      </ul>
 
      
