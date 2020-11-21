@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import profilephoto from '../../../public/images/profile_photo';
+import profilephoto from '../../images/profile_photo';
 import { Container, Row, Col } from "react-bootstrap";
 
 

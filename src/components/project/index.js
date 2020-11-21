@@ -1,16 +1,16 @@
 import React from "react";
 import "./style.css";
-import ex1pic1 from "../../../public/images/ex1pic1.JPG";
-import ex1pic2 from "../../../public/images/ex2pic2.JPG";
-import ex2pic1 from "../../../public/images/ex2pic1.JPG";
-import ex2pic2 from "../../../public/images/ex2pic3.JPG";
-import ex3pic1 from "../../../public/images/ex3pic1.JPG";
-import ex3pic2 from "../../../public/images/ex3pic2.JPG";
-import ex4pic1 from "../../../public/images/ex4pic1.JPG";
-import ex4pic2 from "../../../public/images/ex4pic2.JPG";
-import ex5pic1 from "../../../public/images/ex4pic1.png";
-import ex6pic1 from "../../../public/images/ex6pic1.JPG";
-import ex6pic2 from "../../../public/images/ex6pic2.JPG";
+import ex1pic1 from "../../images/ex1pic1.JPG";
+import ex1pic2 from "../../images/ex2pic2.JPG";
+import ex2pic1 from "../../images/ex2pic1.JPG";
+import ex2pic2 from "../../images/ex2pic3.JPG";
+import ex3pic1 from "../../images/ex3pic1.JPG";
+import ex3pic2 from "../../images/ex3pic2.JPG";
+import ex4pic1 from "../../images/ex4pic1.JPG";
+import ex4pic2 from "../../images/ex4pic2.JPG";
+import ex5pic1 from "../../images/ex4pic1.png";
+import ex6pic1 from "../../images/ex6pic1.JPG";
+import ex6pic2 from "../../images/ex6pic2.JPG";
 import { Col, Container, Row } from "react-bootstrap";
 
 
@@ -28,7 +28,7 @@ function Project() {
                             <p>A full-stack MCV application designed to be used by delivery drivers or restaurants to track
                             outgoing food orders. Users are able to monitor the orders from creation to delivery and
                             easily see the orders's stage, whether it has been picked up by a driver and if it has been
-                            delivered. This application Node.js, Sequelize ORM, and RESTful APIs as part of the back-end
+                            delivered. This application Node.js, Sequelize ORM, and REST APIs as part of the back-end
                             and renders data to the front-end through Handlebars templating engine. For user
     authentication, this application uses Passport.js OAUTH.<br /><br />
                                 <a href={"https://meally-food-delivery-tracker.herokuapp.com/"}>Deployed Application</a><br /><a
