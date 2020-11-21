@@ -1,16 +1,18 @@
 import React from "react";
 import "./style.css";
+import profilephoto from '../../../public/images/profile_photo';
+import { Container, Row, Col } from "react-bootstrap";
 
 
 function Aboutme() {
 
     return (
-        <container>
-            <div className="portfolio-resume row">
+        <Container>
+            <Row className="portfolio-resume">
 
-                <div className="porfolio-resume-spacing col-md-4">
+                <Col md={7} className="porfolio-resume-spacing">
                     <div className="portfolio-resume-wrapper">
-                        <img src={"../../../../public/images/profile_photo.png"} className="portfolio-resume-headshot" alt={"headshot"} />
+                        <img src={profilephoto} className="portfolio-resume-headshot" alt={"headshot"} />
                         <h3 className="portfolio-resume-header">Technology Interests</h3>
                         <ul>
                             <li>Back-end Web Development</li>
@@ -22,9 +24,9 @@ function Aboutme() {
                             <li>MongoDB and other NoSQL Databases</li>
                         </ul>
                     </div>
-                </div>
+                </Col>
 
-                <div className="portfolio-resume-spacing col-md-8">
+                <Col md={8} className="portfolio-resume-spacing">
                     <div className="portfolio-resume-wrapper">
                         <h3 className="portfolio-resume-header">My Professional Story</h3>
                         <div className="portfolio-resume-spacing">
@@ -45,11 +47,11 @@ function Aboutme() {
                             </ul>
                         </div>
                     </div>
-                </div>
-            </div>
+                </Col>
+            </Row>
 
-            <div className="portfolio-resume row">
-                <div className="large-4 columns">
+            <Row className="portfolio-resume">
+                <Col lg={4}>
                     <div className="portfolio-resume-wrapper" id="about_me">
 
                         <h3 className="portfolio-resume-header">Fun Stuff</h3>
@@ -66,15 +68,15 @@ function Aboutme() {
 
 
                     </div>
-                </div>
+                </Col>
 
-            </div>
+            </Row>
 
-        </container>
+        </Container>
 
     );
 
 }
 
 
-export default 
+export default Aboutme

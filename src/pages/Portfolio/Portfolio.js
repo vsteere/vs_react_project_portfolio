@@ -16,4 +16,4 @@ function Portfolio() {
     );
 }
 
-Export default Portfolo;
+export default Portfolio;
