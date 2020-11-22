@@ -6,7 +6,7 @@ This assignment creates a React.js application of my professional portfolio with
 React.js, React.js hooks, React Router
 
 ## Links
-Deployed application: https://vsteere.github.io/about
+Deployed application: https://vsteere.github.io/vs_react_project_portfolio/
 GitHub Repository: https://github.com/vsteere/vs_react_project_portfolio
 
 ## Images
