@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import profilephoto from '../../images/profile_photo';
+import profilephoto from '../../images/profile_photo.png';
 import { Container, Row, Col } from "react-bootstrap";
 
 
@@ -10,13 +10,13 @@ function Aboutme() {
         <Container>
             <Row className="portfolio-resume">
 
-                <Col md={7} className="porfolio-resume-spacing">
+                <Col md={5} className="porfolio-resume-spacing">
                     <div className="portfolio-resume-wrapper">
-                        <img src={profilephoto} className="portfolio-resume-headshot" alt={"headshot"} />
+                        <img src={profilephoto} className="portfolio-resume-headshot" alt={"headshot"} width={170} height={200} />
                         <h3 className="portfolio-resume-header">Technology Interests</h3>
                         <ul>
                             <li>Back-end Web Development</li>
-                            <li>RESTful APIs</li>
+                            <li>REST APIs</li>
                             <li>Node.js</li>
                             <li>Express.js</li>
                             <li>React.js</li>
@@ -26,7 +26,7 @@ function Aboutme() {
                     </div>
                 </Col>
 
-                <Col md={8} className="portfolio-resume-spacing">
+                <Col md={7} className="portfolio-resume-spacing">
                     <div className="portfolio-resume-wrapper">
                         <h3 className="portfolio-resume-header">My Professional Story</h3>
                         <div className="portfolio-resume-spacing">
@@ -51,7 +51,7 @@ function Aboutme() {
             </Row>
 
             <Row className="portfolio-resume">
-                <Col lg={4}>
+                <Col lg={12}>
                     <div className="portfolio-resume-wrapper" id="about_me">
 
                         <h3 className="portfolio-resume-header">Fun Stuff</h3>

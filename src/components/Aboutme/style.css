@@ -10,6 +10,10 @@
   .portfolio-resume-headshot {
     margin-bottom: 2rem;
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
   
   .portfolio-resume-header {
@@ -18,6 +22,7 @@
     border-bottom: 1px solid #e6e6e6;
     font-weight: bold;
     margin-bottom: 1rem;
+    text-align: center;
   }
   
   .portfolio-resume-contact-info {

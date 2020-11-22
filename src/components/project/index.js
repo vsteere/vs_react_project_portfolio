@@ -6,11 +6,11 @@ import ex2pic1 from "../../images/ex2pic1.JPG";
 import ex2pic2 from "../../images/ex2pic3.JPG";
 import ex3pic1 from "../../images/ex3pic1.JPG";
 import ex3pic2 from "../../images/ex3pic2.JPG";
-import ex4pic1 from "../../images/ex4pic1.JPG";
-import ex4pic2 from "../../images/ex4pic2.JPG";
+import ex4pic1 from "../../images/ex4pic1.jpg";
+import ex4pic2 from "../../images/ex4pic2.jpg";
 import ex5pic1 from "../../images/ex4pic1.png";
-import ex6pic1 from "../../images/ex6pic1.JPG";
-import ex6pic2 from "../../images/ex6pic2.JPG";
+import ex6pic1 from "../../images/ex6pic1.jpg";
+import ex6pic2 from "../../images/ex6pic2.jpg";
 import { Col, Container, Row } from "react-bootstrap";
 
 

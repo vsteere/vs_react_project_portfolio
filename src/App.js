@@ -5,6 +5,7 @@ import Home from "../src/pages/Home/Home"
 import Portfolio from "../src/pages/Portfolio/Portfolio"
 import Header from "../src/components/Header/index"
 import Footer from "../src/components/Footer/index"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
