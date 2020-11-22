@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-
+// this is the router that will work with the links in the header navbar
     <Router>
       <div>
         <Header />
